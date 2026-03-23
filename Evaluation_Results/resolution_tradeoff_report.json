@@ -1,0 +1,37 @@
+{
+    "Experiment": "Resolution vs Accuracy Tradeoff (5 Images)",
+    "Model": "gemma-3-27b-it",
+    "Document Parsing (NED-LaTeX)": {
+        "None": {
+            "Scanned": 0.5770098603775712,
+            "Photoed": 0.47119005931855995
+        },
+        "1024": {
+            "Scanned": 0.5967303186748902,
+            "Photoed": 0.5582011821740829
+        },
+        "768": {
+            "Scanned": 0.6240198418112133,
+            "Photoed": 0.5142479744026274
+        }
+    },
+    "Table Parsing (HTML-Sim)": {
+        "None": {
+            "Scanned": 0.7121170530829743,
+            "Photoed": 0.5952247236613945
+        },
+        "1024": {
+            "Scanned": 0.7111502022542451,
+            "Photoed": 0.6773974010429348
+        },
+        "768": {
+            "Scanned": 0.712204887953418,
+            "Photoed": 0.6989202837081431
+        }
+    },
+    "Average Token Savings": {
+        "None (Original)": 0.0,
+        "1024": 43.319,
+        "768": 61.888999999999996
+    }
+}
