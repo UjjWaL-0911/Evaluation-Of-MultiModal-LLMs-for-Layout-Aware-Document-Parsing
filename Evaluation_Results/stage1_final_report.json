@@ -1,12 +1,12 @@
 {
     "Document Parsing (NED-LaTeX)": {
-        "Scanned": 0.5077479323086915,
-        "Photoed": 0.6282332564443189
+        "Scanned": 0.7132478665517284,
+        "Photoed": 0.715749670088711
     },
     "Table Parsing (HTML-Sim)": {
-        "Scanned": 0.6555066174747228,
-        "Photoed": 0.5207718393466946
+        "Scanned": 0.6990777780714308,
+        "Photoed": 0.566983886961906
     },
-    "Model": "gemma-3-27b-it",
+    "Model": "meta/llama-4-maverick-17b-128e-instruct",
     "Track": "English Document Parsing"
 }
