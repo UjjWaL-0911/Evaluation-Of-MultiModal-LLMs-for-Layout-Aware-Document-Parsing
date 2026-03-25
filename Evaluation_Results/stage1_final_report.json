@@ -29,10 +29,34 @@
             "Photoed": 0.4683545569644389
         },
         "Table Parsing (HTML-Sim)": {
-            "Scanned": 0.0,
-            "Photoed": 0.0
+            "Scanned": 0.07779928530244051,
+            "Photoed": 0.03456520813980739
         },
         "Model": "microsoft/phi-4-multimodal-instruct",
         "Track": "English Document Parsing"
+    },
+    {
+        "Document Parsing (NED-LaTeX)": {
+            "Scanned": 0.6173010504286848,
+            "Photoed": 0.5719160992044835
+        },
+        "Table Parsing (HTML-Sim)": {
+            "Scanned": 0.6447972778873433,
+            "Photoed": 0.5206623693029382
+        },
+        "Model": "mistralai/mistral-large-3-675b-instruct-2512",
+        "Track": "English Document Parsing"
+    },
+    {
+    "Document Parsing (NED-LaTeX)": {
+        "Scanned": 0.7132478665517284,
+        "Photoed": 0.715749670088711
+    },
+    "Table Parsing (HTML-Sim)": {
+        "Scanned": 0.6990777780714308,
+        "Photoed": 0.566983886961906
+    },
+    "Model": "meta/llama-4-maverick-17b-128e-instruct",
+    "Track": "English Document Parsing"
     }
 ]
