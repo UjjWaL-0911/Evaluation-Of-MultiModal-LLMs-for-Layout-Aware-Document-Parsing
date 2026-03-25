@@ -1,12 +1,38 @@
-{
-    "Document Parsing (NED-LaTeX)": {
-        "Scanned": 0.5077479323086915,
-        "Photoed": 0.6282332564443189
+[
+    {
+        "Document Parsing (NED-LaTeX)": {
+            "Scanned": 0.5077479323086915,
+            "Photoed": 0.6282332564443189
+        },
+        "Table Parsing (HTML-Sim)": {
+            "Scanned": 0.6555066174747228,
+            "Photoed": 0.5207718393466946
+        },
+        "Model": "gemma-3-27b-it",
+        "Track": "English Document Parsing"
     },
-    "Table Parsing (HTML-Sim)": {
-        "Scanned": 0.6555066174747228,
-        "Photoed": 0.5207718393466946
+    {
+        "Document Parsing (NED-LaTeX)": {
+            "Scanned": 0.6514007741596776,
+            "Photoed": 0.6852319662309172
+        },
+        "Table Parsing (HTML-Sim)": {
+            "Scanned": 0.7177387278507713,
+            "Photoed": 0.629570211430399
+        },
+        "Model": "qwen/qwen3.5-122b-a10b",
+        "Track": "English Document Parsing"
     },
-    "Model": "gemma-3-27b-it",
-    "Track": "English Document Parsing"
-}
+    {
+        "Document Parsing (NED-LaTeX)": {
+            "Scanned": 0.3648531902398206,
+            "Photoed": 0.4683545569644389
+        },
+        "Table Parsing (HTML-Sim)": {
+            "Scanned": 0.0,
+            "Photoed": 0.0
+        },
+        "Model": "microsoft/phi-4-multimodal-instruct",
+        "Track": "English Document Parsing"
+    }
+]
