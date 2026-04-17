@@ -1,0 +1,52 @@
+[
+    {
+        "Model": "qwen/qwen3.5-122b-a10b",
+        "Track": "English Document Parsing",
+        "Quantitative_Results": {
+            "Document_Parsing_Overall_Avg": 0.768,
+            "Document_Parsing_Scanned_Avg": 0.7493,
+            "Document_Parsing_Photoed_Avg": 0.7866,
+            "Table_Parsing_Overall_Avg": 0.7091,
+            "Table_Parsing_Scanned_Avg": 0.7371,
+            "Table_Parsing_Photoed_Avg": 0.6812
+        },
+        "Qualitative_Buckets": {
+            "Documents_Overall": {
+                "76-100%": 95,
+                "51-75%": 40,
+                "26-50%": 12,
+                "0-25%": 3
+            },
+            "Documents_Scanned": {
+                "76-100%": 42,
+                "51-75%": 24,
+                "26-50%": 8,
+                "0-25%": 1
+            },
+            "Documents_Photoed": {
+                "76-100%": 53,
+                "51-75%": 16,
+                "26-50%": 4,
+                "0-25%": 2
+            },
+            "Tables_Overall": {
+                "76-100%": 82,
+                "51-75%": 44,
+                "26-50%": 14,
+                "0-25%": 10
+            },
+            "Tables_Scanned": {
+                "76-100%": 43,
+                "51-75%": 23,
+                "26-50%": 5,
+                "0-25%": 4
+            },
+            "Tables_Photoed": {
+                "76-100%": 39,
+                "51-75%": 21,
+                "26-50%": 9,
+                "0-25%": 6
+            }
+        }
+    }
+]

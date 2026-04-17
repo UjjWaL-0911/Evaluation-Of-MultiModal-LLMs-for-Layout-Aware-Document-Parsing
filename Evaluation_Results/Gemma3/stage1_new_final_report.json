@@ -1,0 +1,52 @@
+[
+    {
+        "Model": "google/gemma-3-27b-it",
+        "Track": "English Document Parsing",
+        "Quantitative_Results": {
+            "Document_Parsing_Overall_Avg": 0.5202,
+            "Document_Parsing_Scanned_Avg": 0.4684,
+            "Document_Parsing_Photoed_Avg": 0.5719,
+            "Table_Parsing_Overall_Avg": 0.6199,
+            "Table_Parsing_Scanned_Avg": 0.6929,
+            "Table_Parsing_Photoed_Avg": 0.5469
+        },
+        "Qualitative_Buckets": {
+            "Documents_Overall": {
+                "76-100%": 27,
+                "51-75%": 48,
+                "26-50%": 57,
+                "0-25%": 18
+            },
+            "Documents_Scanned": {
+                "76-100%": 7,
+                "51-75%": 22,
+                "26-50%": 34,
+                "0-25%": 12
+            },
+            "Documents_Photoed": {
+                "76-100%": 20,
+                "51-75%": 26,
+                "26-50%": 23,
+                "0-25%": 6
+            },
+            "Tables_Overall": {
+                "76-100%": 52,
+                "51-75%": 58,
+                "26-50%": 29,
+                "0-25%": 11
+            },
+            "Tables_Scanned": {
+                "76-100%": 36,
+                "51-75%": 29,
+                "26-50%": 9,
+                "0-25%": 1
+            },
+            "Tables_Photoed": {
+                "76-100%": 16,
+                "51-75%": 29,
+                "26-50%": 20,
+                "0-25%": 10
+            }
+        }
+    }
+]

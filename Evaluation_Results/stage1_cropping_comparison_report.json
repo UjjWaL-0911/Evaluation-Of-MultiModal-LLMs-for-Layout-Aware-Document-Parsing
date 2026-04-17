@@ -1,0 +1,33 @@
+{
+    "Model": "gemma-3-27b-it",
+    "Baseline": {
+        "Document": {
+            "Scanned": 0.6185578681360437,
+            "Photoed": 0.4233843724992064
+        },
+        "Table": {
+            "Scanned": 0.7671203868919149,
+            "Photoed": 0.7251016195952066
+        }
+    },
+    "Cropped": {
+        "Document": {
+            "Scanned": 0.7431247644176867,
+            "Photoed": 0.4497332848995786
+        },
+        "Table": {
+            "Scanned": 0.6826439364217144,
+            "Photoed": 0.728105862227932
+        }
+    },
+    "Savings_Pct": {
+        "Document": {
+            "Scanned": 17.110226100077043,
+            "Photoed": 0.0
+        },
+        "Table": {
+            "Scanned": 9.270325619725517,
+            "Photoed": 0.0
+        }
+    }
+}
