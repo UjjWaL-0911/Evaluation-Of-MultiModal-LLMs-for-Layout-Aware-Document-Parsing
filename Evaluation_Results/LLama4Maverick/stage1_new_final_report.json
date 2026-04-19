@@ -1,0 +1,52 @@
+[
+    {
+        "Model": "meta/llama-4-maverick-17b-128e-instruct",
+        "Track": "English Document Parsing",
+        "Quantitative_Results": {
+            "Document_Parsing_Overall_Avg": 0.5874,
+            "Document_Parsing_Scanned_Avg": 0.6104,
+            "Document_Parsing_Photoed_Avg": 0.5644,
+            "Table_Parsing_Overall_Avg": 0.6854,
+            "Table_Parsing_Scanned_Avg": 0.735,
+            "Table_Parsing_Photoed_Avg": 0.6358
+        },
+        "Qualitative_Buckets": {
+            "Documents_Overall": {
+                "76-100%": 50,
+                "51-75%": 38,
+                "26-50%": 42,
+                "0-25%": 20
+            },
+            "Documents_Scanned": {
+                "76-100%": 23,
+                "51-75%": 25,
+                "26-50%": 19,
+                "0-25%": 8
+            },
+            "Documents_Photoed": {
+                "76-100%": 27,
+                "51-75%": 13,
+                "26-50%": 23,
+                "0-25%": 12
+            },
+            "Tables_Overall": {
+                "76-100%": 76,
+                "51-75%": 47,
+                "26-50%": 18,
+                "0-25%": 9
+            },
+            "Tables_Scanned": {
+                "76-100%": 45,
+                "51-75%": 21,
+                "26-50%": 8,
+                "0-25%": 1
+            },
+            "Tables_Photoed": {
+                "76-100%": 31,
+                "51-75%": 26,
+                "26-50%": 10,
+                "0-25%": 8
+            }
+        }
+    }
+]
