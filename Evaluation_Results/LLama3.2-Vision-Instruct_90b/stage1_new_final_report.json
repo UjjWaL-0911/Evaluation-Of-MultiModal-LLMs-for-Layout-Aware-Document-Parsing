@@ -1,0 +1,52 @@
+[
+    {
+        "Model": "meta/llama-3.2-90b-vision-instruct",
+        "Track": "English Document Parsing",
+        "Quantitative_Results": {
+            "Document_Parsing_Overall_Avg": 0.468,
+            "Document_Parsing_Scanned_Avg": 0.4216,
+            "Document_Parsing_Photoed_Avg": 0.5144,
+            "Table_Parsing_Overall_Avg": 0.5751,
+            "Table_Parsing_Scanned_Avg": 0.6659,
+            "Table_Parsing_Photoed_Avg": 0.4843
+        },
+        "Qualitative_Buckets": {
+            "Documents_Overall": {
+                "76-100%": 30,
+                "51-75%": 33,
+                "26-50%": 44,
+                "0-25%": 43
+            },
+            "Documents_Scanned": {
+                "76-100%": 9,
+                "51-75%": 17,
+                "26-50%": 23,
+                "0-25%": 26
+            },
+            "Documents_Photoed": {
+                "76-100%": 21,
+                "51-75%": 16,
+                "26-50%": 21,
+                "0-25%": 17
+            },
+            "Tables_Overall": {
+                "76-100%": 49,
+                "51-75%": 54,
+                "26-50%": 24,
+                "0-25%": 23
+            },
+            "Tables_Scanned": {
+                "76-100%": 33,
+                "51-75%": 25,
+                "26-50%": 15,
+                "0-25%": 2
+            },
+            "Tables_Photoed": {
+                "76-100%": 16,
+                "51-75%": 29,
+                "26-50%": 9,
+                "0-25%": 21
+            }
+        }
+    }
+]
