@@ -1,5 +1,20 @@
 import nltk
 import re
+
+try:
+    # Same result as nltk.edit_distance (unit-cost Levenshtein, no transpositions) but in C:
+    # ~100x faster, and new nltk versions refuse inputs longer than 2000 characters.
+    from rapidfuzz.distance import Levenshtein as _lev
+
+    def edit_distance(a, b):
+        return _lev.distance(a, b)
+except ImportError:
+    import nltk.metrics.distance as _nd
+    if hasattr(_nd, "MAX_DISTANCE_INPUT_LEN"):
+        _nd.MAX_DISTANCE_INPUT_LEN = 10 ** 9
+
+    def edit_distance(a, b):
+        return nltk.edit_distance(a, b)
 from tqdm import tqdm
 from collections import deque
 from apted.helpers import Tree
@@ -93,7 +108,7 @@ class CustomConfig(Config):
             return 1.0
         if node1.tag == "td":
             if node1.content or node2.content:
-                return nltk.edit_distance(node1.content, node2.content) / max(len(node1.content), len(node2.content))
+                return edit_distance(node1.content, node2.content) / max(len(node1.content), len(node2.content))
         return 0.0
 
 
@@ -233,7 +248,7 @@ class ParsingEvaluator(BaseMetric):
         pred = pred.replace(' ', '').replace('\n', '')
         gt = gt.replace(' ', '').replace('\n', '')
 
-        edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
+        edit_dist = edit_distance(pred, gt) / max(len(pred), len(gt))
         return 1 - edit_dist
 
     def eval_doc(self, response_info, gt_info):
@@ -269,7 +284,7 @@ class ParsingEvaluator(BaseMetric):
         elif op_name == 'molecular':
             pred = pred.replace("\n", "").replace(" ", "").replace("<smiles>", "").replace("</smiles>", "")
             gt = gt.replace(" ", "")
-        edit_dist = nltk.edit_distance(pred, gt) / max(len(pred), len(gt))
+        edit_dist = edit_distance(pred, gt) / max(len(pred), len(gt))
         return 1 - edit_dist
 
     def eval_formula(self, response_info, gt_info, op_name='formula'):
