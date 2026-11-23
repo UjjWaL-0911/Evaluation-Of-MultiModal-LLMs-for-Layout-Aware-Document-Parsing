@@ -12,3 +12,7 @@ Extracted_parsing_images/
 venv/
 __pycache__/
 *.pyc
+
+# Part 2 SAV activations (100-300 MB per model) are shared as Drive zips, not via git
+Evaluation_Results/SAVs/*/activations/
+*.pt

@@ -1,15 +1,41 @@
-# Using Python 3.12 Version
-# Install necessary libraries
-pandas 
-numpy 
-matplotlib 
-ipykernel 
-ollama 
-pandas 
-pillow 
-nltk 
-lxml 
-distance 
-tabulate 
-apted 
+# Python 3.11+
+#
+# Local setup (Windows):
+#   python -m venv venv
+#   venv\Scripts\pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   venv\Scripts\pip install -r requirements.txt
+#   venv\Scripts\python -m ipykernel install --user --name btp-docparsing
+#
+# Colab: torch/torchvision are preinstalled; just `pip install -r requirements.txt`.
+
+# --- Data + evaluation (CC-OCR NEDS / TEDS) ---
+pandas
+numpy
+pillow
+nltk
+lxml
+distance
+tabulate
+apted
+rapidfuzz               # fast exact Levenshtein for NEDS/TEDS (new nltk caps inputs at 2000 chars)
+tqdm
 huggingface_hub
+matplotlib
+ipykernel
+python-dotenv
+
+# --- API inference (Part 1: NVIDIA NIM is OpenAI-compatible; Gemma via Google SDK) ---
+openai
+google-generativeai
+
+# --- Local open-weight inference + Sparse Attention Vectors (Part 2) ---
+transformers>=4.48
+accelerate
+bitsandbytes>=0.45      # 4-bit loading for Llama-3.2-11B-Vision on a 16 GB T4
+scikit-learn            # t-SNE, metrics, linear-probe ablation
+# Phi-4-multimodal remote code extras (it also pins transformers==4.48.2 / peft==0.13.2;
+# install those pins inside its own Colab notebook to avoid conflicts):
+peft
+scipy
+soundfile
+backoff
