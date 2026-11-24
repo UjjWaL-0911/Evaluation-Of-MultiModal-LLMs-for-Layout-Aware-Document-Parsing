@@ -1,0 +1,13 @@
+{
+  "model_key": "llama32v_11b",
+  "hf_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+  "quant": "4bit",
+  "compute_dtype": "torch.float16",
+  "layers": 32,
+  "heads_per_layer": 32,
+  "transformers": "5.24.0",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "gpu": "Tesla T4",
+  "time": "2026-11-24 16:07:00"
+}
