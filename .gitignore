@@ -16,3 +16,6 @@ __pycache__/
 # Part 2 SAV activations (100-300 MB per model) are shared as Drive zips, not via git
 Evaluation_Results/SAVs/*/activations/
 *.pt
+
+# Smoke-test runs of the Part 2 notebooks (SMOKE_TEST = True)
+Evaluation_Results/SAVs_smoke/
