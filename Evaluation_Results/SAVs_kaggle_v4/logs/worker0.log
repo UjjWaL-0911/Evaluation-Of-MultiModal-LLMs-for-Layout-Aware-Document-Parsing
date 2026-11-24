@@ -1,0 +1,37 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+13:55:55 [w0] Tesla T4 | loaded in 78s | 28 layers x 28 heads = 784 heads (first hooked module: model.language_model.layers.0.self_attn.o_proj) | 5.9 GB | splits ['Scanned_Docs', 'Scanned_Tables']
+13:55:55 [w0] run_info {'model_key': 'qwen25vl_7b', 'hf_id': 'Qwen/Qwen2.5-VL-7B-Instruct', 'quant': '4bit', 'compute_dtype': 'torch.float16', 'layers': 28, 'heads_per_layer': 28, 'transformers': '5.24.0', 'torch': '2.11.0+cu130', 'python': '3.13.16', 'gpu': 'Tesla T4', 'time': '2026-11-24 13:55:55'}
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:57:18 [w0] 2A acquisition done in 1.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:58:10 [w0] 2A has_math done in 0.9 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:59:01 [w0] 2A has_table done in 0.9 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:59:29 [w0] 2A merged_cells done in 0.5 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:00:49 [w0] 2A parse done in 1.3 min
+/tmp/btp_code/common.py:215: SyntaxWarning: invalid escape sequence '\]'
+  '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
+14:17:17 [w0] 2B base_1024 Scanned_Docs done in 16.5 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:35:13 [w0] 2B base_1024 Scanned_Tables done in 17.9 min
+14:50:27 [w0] 2B r768 Scanned_Docs done in 15.2 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:07:21 [w0] 2B r768 Scanned_Tables done in 16.9 min
+15:21:43 [w0] 2B crop_768 Scanned_Docs done in 14.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:39:34 [w0] 2B crop_768 Scanned_Tables done in 17.9 min
+15:39:34 [w0] finished

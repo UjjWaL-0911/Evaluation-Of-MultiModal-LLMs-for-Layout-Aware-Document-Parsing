@@ -1,0 +1,99 @@
+Cloning into '/tmp/btp_code'...
+13:52:38 code: dc1f139 Make resolution experiment notebooks use portable data paths
+13:53:10 GPUs: ['Tesla T4', 'Tesla T4']
+CC-OCR TSVs not found locally/Drive; downloading the 4 English splits from Hugging Face...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+13:53:16 data: /tmp/btp_code/CC-OCR_Dataset/doc_parsing
+13:54:33 model downloaded
+13:54:33 started worker 0
+13:56:03 started worker 1
+14:06:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 7, 'r768': 0, 'crop_768': 0}
+14:16:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 28, 'r768': 0, 'crop_768': 0}
+14:26:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 43, 'r768': 0, 'crop_768': 0}
+14:36:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 1, 'crop_768': 0}
+14:46:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 23, 'crop_768': 0}
+14:56:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 40, 'crop_768': 0}
+15:06:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 58, 'crop_768': 0}
+15:16:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 60, 'crop_768': 19}
+15:26:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 60, 'crop_768': 35}
+15:36:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 60, 'crop_768': 53}
+15:46:03 activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 60, 'crop_768': 60}
+15:46:03 worker 0 exit code 0; last lines of its log:
+  warn(
+13:59:01 [w0] 2A has_table done in 0.9 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:59:29 [w0] 2A merged_cells done in 0.5 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:00:49 [w0] 2A parse done in 1.3 min
+/tmp/btp_code/common.py:215: SyntaxWarning: invalid escape sequence '\]'
+  '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
+14:17:17 [w0] 2B base_1024 Scanned_Docs done in 16.5 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:35:13 [w0] 2B base_1024 Scanned_Tables done in 17.9 min
+14:50:27 [w0] 2B r768 Scanned_Docs done in 15.2 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:07:21 [w0] 2B r768 Scanned_Tables done in 16.9 min
+15:21:43 [w0] 2B crop_768 Scanned_Docs done in 14.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:39:34 [w0] 2B crop_768 Scanned_Tables done in 17.9 min
+15:39:34 [w0] finished
+
+15:46:03 worker 1 exit code 0; last lines of its log:
+13:59:07 [w1] 2A has_math done in 0.7 min
+13:59:52 [w1] 2A has_table done in 0.8 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:00:36 [w1] 2A merged_cells done in 0.7 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:02:07 [w1] 2A parse done in 1.5 min
+14:15:30 [w1] 2B base_1024 Photoed_Docs done in 13.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:33:35 [w1] 2B base_1024 Photoed_Tables done in 18.1 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:49:16 [w1] 2B r768 Photoed_Docs done in 15.7 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:05:20 [w1] 2B r768 Photoed_Tables done in 16.1 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:20:42 [w1] 2B crop_768 Photoed_Docs done in 15.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:36:47 [w1] 2B crop_768 Photoed_Tables done in 16.1 min
+15:36:47 [w1] finished
+
+15:46:04 merged: activations {'acquisition': 100, 'has_math': 50, 'has_table': 50, 'merged_cells': 50, 'parse': 100} | parsing {'base_1024': 60, 'r768': 60, 'crop_768': 60}
+## Part 2A: classification (balanced accuracy %, mean ± std over seeds)
+
+| Model | Task | n | shots/class | Zero-shot | SAVs | Majority (acc) | ZS invalid |
+|---|---|---|---|---|---|---|---|
+| qwen25vl_7b | acquisition | 100 | 20 | 88.7 ± 2.2 | **93.0 ± 2.9** | 50.0 ± 0.0 | 0% |
+| qwen25vl_7b | has_math | 50 | 9 | 64.8 ± 1.2 | **64.1 ± 8.7** | 29.4 ± 27.5 | 0% |
+| qwen25vl_7b | has_table | 50 | 17 | 98.0 ± 4.0 | **95.3 ± 4.3** | 68.8 ± 0.0 | 0% |
+| qwen25vl_7b | merged_cells | 50 | 17 | 66.2 ± 6.4 | **72.0 ± 11.8** | 31.2 ± 0.0 | 0% |
+
+## Part 2B: SAV routing of parsing configs (mean NEDS/TEDS on held-out half)
+
+| Model | n | Always base | Best fixed | Best per split | **SAV router** | Oracle | Failure-pred bal. acc |
+|---|---|---|---|---|---|---|---|
+| qwen25vl_7b | 60 | 75.2 ± 1.9 | 73.9 ± 3.7 | 74.6 ± 1.7 | **72.5 ± 1.8** | 76.9 ± 1.7 | 53.6 ± 9.0 |
+
+## Part 2B: mean score per split and config
+
+| Split | base_1024 | r768 | crop_768 |
+|---|---|---|---|
+| Scanned_Docs | 0.783 (n=15) | 0.761 (n=15) | 0.709 (n=15) |
+| Photoed_Docs | 0.761 (n=15) | 0.668 (n=15) | 0.668 (n=15) |
+| Scanned_Tables | 0.706 (n=15) | 0.722 (n=15) | 0.641 (n=15) |
+| Photoed_Tables | 0.681 (n=15) | 0.662 (n=15) | 0.662 (n=15) |
+15:46:07 done in 1.89 h | /kaggle/working/SAVs_results_qwen25vl_7b.zip

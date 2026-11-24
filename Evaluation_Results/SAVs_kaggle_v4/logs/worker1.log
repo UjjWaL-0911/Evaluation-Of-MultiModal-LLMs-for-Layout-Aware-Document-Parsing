@@ -1,0 +1,29 @@
+13:57:00 [w1] Tesla T4 | loaded in 54s | 28 layers x 28 heads = 784 heads (first hooked module: model.language_model.layers.0.self_attn.o_proj) | 5.9 GB | splits ['Photoed_Docs', 'Photoed_Tables']
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+13:58:22 [w1] 2A acquisition done in 1.4 min
+13:59:07 [w1] 2A has_math done in 0.7 min
+13:59:52 [w1] 2A has_table done in 0.8 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:00:36 [w1] 2A merged_cells done in 0.7 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:02:07 [w1] 2A parse done in 1.5 min
+14:15:30 [w1] 2B base_1024 Photoed_Docs done in 13.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:33:35 [w1] 2B base_1024 Photoed_Tables done in 18.1 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+14:49:16 [w1] 2B r768 Photoed_Docs done in 15.7 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:05:20 [w1] 2B r768 Photoed_Tables done in 16.1 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:20:42 [w1] 2B crop_768 Photoed_Docs done in 15.4 min
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+15:36:47 [w1] 2B crop_768 Photoed_Tables done in 16.1 min
+15:36:47 [w1] finished

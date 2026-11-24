@@ -1,0 +1,13 @@
+{
+  "model_key": "qwen25vl_7b",
+  "hf_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "quant": "4bit",
+  "compute_dtype": "torch.float16",
+  "layers": 28,
+  "heads_per_layer": 28,
+  "transformers": "5.24.0",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "gpu": "Tesla T4",
+  "time": "2026-11-24 13:55:55"
+}
