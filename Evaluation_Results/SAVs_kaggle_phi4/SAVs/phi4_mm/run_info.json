@@ -1,0 +1,13 @@
+{
+  "model_key": "phi4_mm",
+  "hf_id": "microsoft/Phi-4-multimodal-instruct",
+  "quant": null,
+  "compute_dtype": "torch.float16",
+  "layers": 32,
+  "heads_per_layer": 24,
+  "transformers": "4.48.2",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "gpu": "Tesla T4",
+  "time": "2026-11-24 13:48:27"
+}
